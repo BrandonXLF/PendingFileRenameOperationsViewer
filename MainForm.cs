@@ -21,13 +21,14 @@ namespace PendingFileRenameOperationsViewer
 
         private void OperationGrid_CellClick(object sender, DataGridViewCellEventArgs e)
         {
+            if (e.RowIndex < 0) return;
+
             if (e.ColumnIndex == 6) {
                 OperationGrid.Rows.RemoveAt(e.RowIndex);
                 return;
             }
 
             var remainderBy3 = e.ColumnIndex % 3;
-
             if (remainderBy3 == 0) return;
 
             var currentColIndex = e.ColumnIndex - remainderBy3;
