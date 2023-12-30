@@ -6,6 +6,11 @@
     <UseWindowsForms>true</UseWindowsForms>
     <ApplicationManifest>app.manifest</ApplicationManifest>
     <ApplicationIcon>media\icon.ico</ApplicationIcon>
+    <Description></Description>
+    <Copyright>© Brandon Fowler</Copyright>
+    <Product>Pending File Rename Operations Viewer</Product>
+    <Authors>Brandon Fowler</Authors>
+    <Title>Pending File Rename Operations Viewer</Title>
   </PropertyGroup>
   <ItemGroup>
     <Resource Include="media\icon.ico" />
