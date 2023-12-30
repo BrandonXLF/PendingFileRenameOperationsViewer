@@ -10,6 +10,8 @@ namespace PendingFileRenameOperationsViewer
         {
             InitializeComponent();
 
+            Icon = AppResources.AppIcon;
+
             OperationGrid.AutoGenerateColumns = false;
             OperationGrid.DataSource = new BindingSource
             {
